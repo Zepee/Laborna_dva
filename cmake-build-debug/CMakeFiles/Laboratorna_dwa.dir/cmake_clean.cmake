@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Laboratorna_dwa.dir/main.cpp.obj"
   "Laboratorna_dwa.exe"
   "Laboratorna_dwa.exe.manifest"
+  "Laboratorna_dwa.lib"
   "Laboratorna_dwa.pdb"
-  "libLaboratorna_dwa.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,9 @@
-//
-// Created by ramp8 on 21.02.2021.
-//
+#pragma once
+#include <iostream>
+#include <direct.h>
+#include <vector>
+#include <string>
 
-#ifndef LABORATORNA_DWA_HEADERS_H
-#define LABORATORNA_DWA_HEADERS_H
+using namespace std;
 
-#endif //LABORATORNA_DWA_HEADERS_H
+
