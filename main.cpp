@@ -33,7 +33,8 @@ void find_files(vector<string>& files) {
     cin >> dir;
 
     strcat(path, dir);
-    strcat(path, "/*");
+    strcat(path, "/*.csv");
+
     cout << "Dir path: " << path << endl;
     intptr_t handle = _findfirst(path, &data);
     do
