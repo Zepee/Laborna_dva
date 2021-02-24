@@ -29,6 +29,7 @@ void find_files(vector<string>& files) {
     _finddata_t data;
     char dir[40];
     char path[60] = "../";
+    cout << "Enter dir (type 'files'): ";
     cin >> dir;
 
     strcat(path, dir);
