@@ -11,45 +11,65 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8c16431-1171-45eb-99be-b7f99853653e" name="Default Changelist" comment="adadadadadaw">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="c8c16431-1171-45eb-99be-b7f99853653e" name="Default Changelist" comment="Now program is modular">
+      <change afterPath="$PROJECT_DIR$/.vs/CMake Overview" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Laborna_dva/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Laborna_dva/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Laborna_dva/v16/ipch/AutoPCH/8d557d5b94536dd8/HEADERS.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Laborna_dva/v16/ipch/AutoPCH/9569ec470527824c/MAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/direct/anotherFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/direct/someFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.cmake/api/v1/query/client-MicrosoftVS/query.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.cmake/api/v1/reply/cache-v2-187d63a6f4aed3258d33.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.cmake/api/v1/reply/cmakeFiles-v1-e053d29da4f9a4e1d8e3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.cmake/api/v1/reply/codemodel-v2-8c4c34a5aeec116b02aa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.cmake/api/v1/reply/index-2021-02-24T10-53-42-0014.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.cmake/api/v1/reply/target-Laboratorna_dwa-Debug-bb5f0b79e8c65139387f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdC/CMakeCCompilerId.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdC/CMakeCCompilerId.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/Laboratorna_dwa.dir/embed.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/Laboratorna_dwa.dir/intermediate.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/Laboratorna_dwa.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/Laboratorna_dwa.dir/manifest.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/Laboratorna_dwa.dir/manifest.res" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/Laboratorna_dwa.dir/vc140.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/ShowIncludes/foo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/ShowIncludes/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/ShowIncludes/main.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/Laboratorna_dwa.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/VSInheritEnvironments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/linklibs.rsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Laboratorna_dwa.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Laboratorna_dwa.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Laboratorna_dwa.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Laboratorna_dwa.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Laboratorna_dwa.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,14 +81,23 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1onlqsNYgS4UMk8wsfLu2OhSdGl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -97,8 +126,19 @@
       <updated>1614017508130</updated>
       <workItem from="1614017511882" duration="648000" />
       <workItem from="1614113215569" duration="5000" />
-      <workItem from="1614117015777" duration="422000" />
+      <workItem from="1614117015777" duration="2297000" />
+      <workItem from="1614160522796" duration="3281000" />
+      <workItem from="1614163863670" duration="24000" />
+      <workItem from="1614170299103" duration="726000" />
     </task>
+    <task id="LOCAL-00001" summary="Now program is modular">
+      <created>1614117509911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614117509911</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +155,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Now program is modular" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now program is modular" />
   </component>
 </project>
