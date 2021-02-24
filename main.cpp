@@ -8,13 +8,22 @@
 using namespace std;
 
 template <typename T>
-void print_vector(vector<T> vct);
-void find_files(vector<string>&);
+void print_vector(vector<T>);
+string find_files(vector<string>&); // Finds files' names
+void collect_data(vector<string>&, vector<vector<string>>&, string, int&); // Collects data from all files to one vector
+float calculate_min_score(); // Calculates min score for CTEIIYXA
+void form_results(vector<vector<string>>&, string); // Forms .csv file with 40% happy dudes, who'll get CTEIIYXA
 
 int main() {
-    vector <string> files;
-    find_files(files);
+    vector<vector<string>> all_data; //data from all files
+    vector <string> files; // Files' names
+    int students_count = 0;
+    float min_score;
+    string path;
+
+    path = find_files(files);
     print_vector(files);
+
 }
 
 template <typename T>
@@ -25,7 +34,8 @@ void print_vector(vector<T> vct) {
     }
 }
 
-void find_files(vector<string>& files) {
+string find_files(vector<string>& files) {
+    string out_path;
     _finddata_t data;
     char dir[40];
     char path[60] = "../";
@@ -33,6 +43,7 @@ void find_files(vector<string>& files) {
     cin >> dir;
 
     strcat(path, dir);
+    out_path = (const char * )path;
     strcat(path, "/*.csv");
 
     cout << "Dir path: " << path << endl;
@@ -42,4 +53,6 @@ void find_files(vector<string>& files) {
         files.emplace_back(data.name);
     } while (_findnext(handle, &data) == 0);
     _findclose(handle);
+
+    return out_path;
 }
