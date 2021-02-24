@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Roman/source/repos/Laborna_dva/headers.h
+C:/Users/Roman/source/repos/Laborna_dva/main.cpp
 iostream
 -
 direct.h
 -
+io.h
+-
 vector
 -
-string
+cstring
 -
-
-C:/Users/Roman/source/repos/Laborna_dva/main.cpp
-headers.h
-C:/Users/Roman/source/repos/Laborna_dva/headers.h
 
