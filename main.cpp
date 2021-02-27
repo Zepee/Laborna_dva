@@ -15,7 +15,7 @@ void print_vector(vector<T>);
 void infoout(vector<vector<string>> ,vector<string> &,vector<float>&);
 void student_sort(vector<string>&,vector<float>&);
 void stependiru(vector<string>&,vector<float>&,vector<string>&);
-void vuvid_v_fayl(vector<string>,vector<float>);
+void vuvid_v_fayl(vector<string>,vector<float>, string);
 string find_files(vector<string>&); // Finds files' names
 void collect_data(vector<string>&, vector<vector<string>>&, string); // Collects data about non-contractors
 float calculate_min_score(float*,int); // Calculates min score for CTEIIYXA
@@ -49,7 +49,7 @@ int main() {
     vector<string> students_z_stepoyu;
 
     stependiru( names, avg_score, students_z_stepoyu);
-    vuvid_v_fayl( students_z_stepoyu, avg_score);
+    vuvid_v_fayl( students_z_stepoyu, avg_score, path);
 }
 
 template <typename T>
@@ -130,7 +130,7 @@ float calculate_min_score(float* scores, int n){
 void infoout(vector<vector<string>> students,vector<string>& names,vector<float>& avg_scrore )
 {
     int grades;
-    float sum;
+    float sum = 0;
     vector<string> temp;
     for(int i=0;i<students.size();i++)
     {
@@ -181,12 +181,14 @@ void stependiru(vector<string>& names,vector<float>& avg_score,vector<string>& s
         students_z_stepoyu.push_back(names[i]);
 }
 
-void vuvid_v_fayl(vector<string> students_z_stepoyu,vector<float> avg_score)
+void vuvid_v_fayl(vector<string> students_z_stepoyu,vector<float> avg_score, string path)
 {
     ofstream fout;
-    fout.open("Students_with_grands.txt");
-    fout<<"Minimal score to get grand :"<<avg_score[int(avg_score.size()*0.4)]<<endl;
-    fout<<"Students that will get grands :"<<endl;
+    fout.open(path + "/rating.csv");
+
+    cout<<"Minimal score to get grand :"<<avg_score[int(avg_score.size()*0.4)]<<endl;
+
     for(int i=0;i<students_z_stepoyu.size();i++)
-        fout<<students_z_stepoyu[i]<<endl;
+        fout<<students_z_stepoyu[i]<<","<< avg_score[i] << endl;
 }
+//s
