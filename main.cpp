@@ -121,7 +121,7 @@ float calculate_min_score(float* scores, int n){
 void infoout(vector<vector<string>> students,vector<string>& names,vector<float>& avg_scrore )
 {
     int grades;
-    int sum;
+    float sum;
     vector<string> temp;
     for(int i=0;i<students.size();i++)
     {
