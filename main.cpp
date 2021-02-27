@@ -44,7 +44,7 @@ string find_files(vector<string>& files) {
 
     strcat(path, dir);
     out_path = (const char * )path;
-    strcat(path, "/*.csv");
+    strcat(path, "/.csv");
 
     cout << "Dir path: " << path << endl;
     intptr_t handle = _findfirst(path, &data);

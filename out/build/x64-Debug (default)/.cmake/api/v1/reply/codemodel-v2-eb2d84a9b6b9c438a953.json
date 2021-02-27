@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Laboratorna_dwa",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Laboratorna_dwa::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Laboratorna_dwa-Debug-bb5f0b79e8c65139387f.json",
+					"name" : "Laboratorna_dwa",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ramp8/Laboratorni_Z_OP/Laboratorna_dwa(2.0)/Laborna_dva/out/build/x64-Debug (default)",
+		"source" : "C:/Users/ramp8/Laboratorni_Z_OP/Laboratorna_dwa(2.0)/Laborna_dva"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
