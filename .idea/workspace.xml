@@ -11,65 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8c16431-1171-45eb-99be-b7f99853653e" name="Default Changelist" comment="Now program is modular">
-      <change afterPath="$PROJECT_DIR$/.vs/CMake Overview" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Laborna_dva/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Laborna_dva/v16/Browse.VC.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Laborna_dva/v16/ipch/AutoPCH/8d557d5b94536dd8/HEADERS.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Laborna_dva/v16/ipch/AutoPCH/9569ec470527824c/MAIN.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/direct/anotherFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/direct/someFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.cmake/api/v1/query/client-MicrosoftVS/query.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.cmake/api/v1/reply/cache-v2-187d63a6f4aed3258d33.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.cmake/api/v1/reply/cmakeFiles-v1-e053d29da4f9a4e1d8e3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.cmake/api/v1/reply/codemodel-v2-8c4c34a5aeec116b02aa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.cmake/api/v1/reply/index-2021-02-24T10-53-42-0014.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.cmake/api/v1/reply/target-Laboratorna_dwa-Debug-bb5f0b79e8c65139387f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdC/CMakeCCompilerId.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdC/CMakeCCompilerId.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/Laboratorna_dwa.dir/embed.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/Laboratorna_dwa.dir/intermediate.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/Laboratorna_dwa.dir/main.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/Laboratorna_dwa.dir/manifest.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/Laboratorna_dwa.dir/manifest.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/Laboratorna_dwa.dir/vc140.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/ShowIncludes/foo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/ShowIncludes/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/ShowIncludes/main.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/Laboratorna_dwa.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/VSInheritEnvironments.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug (по умолчанию)/cmake_install.cmake" afterDir="false" />
+    <list default="true" id="c8c16431-1171-45eb-99be-b7f99853653e" name="Default Changelist" comment="Add all prototypes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Laboratorna_dwa.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Laboratorna_dwa.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Laboratorna_dwa.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +77,9 @@
       <workItem from="1614117015777" duration="2297000" />
       <workItem from="1614160522796" duration="3281000" />
       <workItem from="1614163863670" duration="24000" />
-      <workItem from="1614170299103" duration="726000" />
+      <workItem from="1614170299103" duration="14203000" />
+      <workItem from="1614253642666" duration="2000" />
+      <workItem from="1614430089867" duration="1108000" />
     </task>
     <task id="LOCAL-00001" summary="Now program is modular">
       <created>1614117509911</created>
@@ -138,7 +88,42 @@
       <option name="project" value="LOCAL" />
       <updated>1614117509911</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Now program is NOT modular. + add file search">
+      <created>1614171183291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614171183291</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Improved find_file() interface">
+      <created>1614171489656</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614171489656</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Source dir with .csv files is now &quot;files&quot;">
+      <created>1614171869250</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614171869250</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Source dir with .csv files is now &quot;files&quot;">
+      <created>1614176648205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614176648205</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add all prototypes">
+      <created>1614191448270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614191448270</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +144,10 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Now program is modular" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now program is modular" />
+    <MESSAGE value="Now program is NOT modular. + add file search" />
+    <MESSAGE value="Improved find_file() interface" />
+    <MESSAGE value="Source dir with .csv files is now &quot;files&quot;" />
+    <MESSAGE value="Add all prototypes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add all prototypes" />
   </component>
 </project>
