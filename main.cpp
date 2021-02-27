@@ -15,6 +15,7 @@ void print_vector(vector<T>);
 void infoout(vector<vector<string>> ,vector<string> &,vector<float>&);
 void student_sort(vector<string>&,vector<float>&);
 void stependiru(vector<string>&,vector<float>&,vector<string>&);
+void vuvid_v_fayl(vector<string>);
 string find_files(vector<string>&); // Finds files' names
 void collect_data(vector<string>&, vector<vector<string>>&, string); // Collects data about non-contractors
 float calculate_min_score(float*,int); // Calculates min score for CTEIIYXA
@@ -46,8 +47,9 @@ int main() {
 
     student_sort( names, avg_score);
     vector<string> students_z_stepoyu;
-    for(int i=0;i<avg_score.size();i++)
-        cout<<avg_score[i]<<" ";
+
+    stependiru( names, avg_score, students_z_stepoyu);
+
 }
 
 template <typename T>
@@ -178,3 +180,4 @@ void stependiru(vector<string>& names,vector<float>& avg_score,vector<string>& s
     for(int i=0;i<number_of_st;i++)
         students_z_stepoyu.push_back(names[i]);
 }
+
