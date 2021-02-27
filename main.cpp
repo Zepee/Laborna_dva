@@ -13,6 +13,7 @@ using namespace std;
 template <typename T>
 void print_vector(vector<T>);
 void infoout(vector<vector<string>> ,vector<string> &,vector<float>&);
+void student_sort(vector<string>&,vector<float>&);
 string find_files(vector<string>&); // Finds files' names
 void collect_data(vector<string>&, vector<vector<string>>&, string); // Collects data about non-contractors
 float calculate_min_score(float*,int); // Calculates min score for CTEIIYXA
@@ -41,6 +42,9 @@ int main() {
     vector<string> names;
     vector<float> avg_score;
     infoout( all_data,names,avg_score);
+
+    student_sort( names, avg_score);
+
 }
 
 template <typename T>
@@ -142,6 +146,25 @@ void infoout(vector<vector<string>> students,vector<string>& names,vector<float>
          sum/=grades;
         avg_scrore.push_back(sum);
         sum=0;
-        cout<<endl;
+        //cout<<endl;
+    }
+}
+
+void student_sort(vector<string>& names,vector<float>& avg_score)
+{
+    for(int i=0;i<avg_score.size();i++)
+    {
+        for(int j=0;j<avg_score.size()-1-i;j++)
+        {
+            if(avg_score[j]<avg_score[j+1])
+            {
+                float temp=avg_score[j];
+                avg_score[j]=avg_score[j+1];
+                avg_score[j+1]=temp;
+                string tempstr= names[j];
+                names[j]=names[j+1];
+                names[j+1]=tempstr;
+            }
+        }
     }
 }
