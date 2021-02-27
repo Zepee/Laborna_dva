@@ -1,3 +1,3 @@
-C:/Users/Roman/source/repos/Laborna_dva/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir
-C:/Users/Roman/source/repos/Laborna_dva/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Roman/source/repos/Laborna_dva/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ramp8/Laboratorni_Z_OP/Laboratorna_dwa(2.0)/Laborna_dva/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir
+C:/Users/ramp8/Laboratorni_Z_OP/Laboratorna_dwa(2.0)/Laborna_dva/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ramp8/Laboratorni_Z_OP/Laboratorna_dwa(2.0)/Laborna_dva/cmake-build-debug/CMakeFiles/rebuild_cache.dir
