@@ -18,6 +18,7 @@ void stependiru(vector<string>&,vector<float>&,vector<string>&);
 void vuvid_v_fayl(vector<string>,vector<float>);
 string find_files(vector<string>&); // Finds files' names
 void collect_data(vector<string>&, vector<vector<string>>&, string); // Collects data about non-contractors
+void clear_spaces(string&);
 
 int main() {
     setlocale(LC_ALL, "Rus");
@@ -102,10 +103,12 @@ void collect_data(vector<string>& file_names, vector<vector<string>>& data, stri
             for (size_t j = 0; j < 6; j++)
             {
                 getline(file, log, ',');
+                clear_spaces(log);
                 temp.push_back(log);
             }
 
             getline(file, log, '\n');
+            clear_spaces(log);
 
             //temp.push_back(log);
             if (log == "FALSE" || !log[0] == '+')
@@ -131,12 +134,14 @@ void infoout(vector<vector<string>> students,vector<string>& names,vector<float>
         {
             if(j==0)
                 names.push_back(temp[j]);
-            if(j!=0)
+            if(j!=0 && temp[j][0] != '-')
             {
                  stringstream num(temp[j]);
                 float n=0;
                 num >> n;
                 sum+=n;
+            }else if(j!=0 && temp[j][0] == '-'){
+                sum+=100;
             }
         }
          sum/=grades;
@@ -187,4 +192,21 @@ void vuvid_v_fayl(vector<string> students_z_stepoyu,vector<float> avg_score)
             fout << students_z_stepoyu[i] << "," << avg_score[i] << endl;
     }
     fout.close();
+}
+
+void clear_spaces(string & str){
+    if(str == "")
+        return;
+    if (str[0] == ' '){
+        int i;
+        for (i = 0; str[i] == ' '; ++i);
+        str.erase(0, i);
+    }
+    if(str[str.size() - 1] == ' '){
+        int i;
+        int j = 0;
+        for (i = str.size() - 1; str[i] == ' '; --i, j++) {
+            str.erase(i, j);
+        }
+    }
 }

@@ -11,8 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8c16431-1171-45eb-99be-b7f99853653e" name="Default Changelist" comment="First day patch">
+    <list default="true" id="c8c16431-1171-45eb-99be-b7f99853653e" name="Default Changelist" comment="Add &quot;+&quot; obrobka">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Laboratorna_dwa.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Laboratorna_dwa.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Laboratorna_dwa.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/students1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/students1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -57,6 +59,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +85,7 @@
       <workItem from="1614453851104" duration="3982000" />
       <workItem from="1614580481396" duration="1418000" />
       <workItem from="1615191499746" duration="599000" />
-      <workItem from="1615195543022" duration="2598000" />
+      <workItem from="1615195543022" duration="5337000" />
     </task>
     <task id="LOCAL-00001" summary="Now program is modular">
       <created>1614117509911</created>
@@ -157,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615195810266</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add &quot;+&quot; obrobka">
+      <created>1615200652109</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615200652109</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +201,7 @@
     <MESSAGE value="Output data fix" />
     <MESSAGE value="Release! :D" />
     <MESSAGE value="First day patch" />
-    <option name="LAST_COMMIT_MESSAGE" value="First day patch" />
+    <MESSAGE value="Add &quot;+&quot; obrobka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;+&quot; obrobka" />
   </component>
 </project>
