@@ -18,8 +18,6 @@ void stependiru(vector<string>&,vector<float>&,vector<string>&);
 void vuvid_v_fayl(vector<string>,vector<float>);
 string find_files(vector<string>&); // Finds files' names
 void collect_data(vector<string>&, vector<vector<string>>&, string); // Collects data about non-contractors
-float calculate_min_score(float*,int); // Calculates min score for CTEIIYXA
-void form_results(vector<vector<string>>&, string); // Forms .csv file with 40% of happy dudes, who'll get CTEIIYXA
 
 int main() {
     setlocale(LC_ALL, "Rus");
@@ -37,9 +35,6 @@ int main() {
     collect_data(files, all_data, path);
 
     not_contractors = all_data.size();
-
-    average_scores = new float[not_contractors];
-    only_names = new string[not_contractors];
 
     vector<string> names;
     vector<float> avg_score;
@@ -123,10 +118,6 @@ void collect_data(vector<string>& file_names, vector<vector<string>>& data, stri
     }
 }
 
-float calculate_min_score(float* scores, int n){
-    return 0;
-}
-
 void infoout(vector<vector<string>> students,vector<string>& names,vector<float>& avg_scrore )
 {
     int grades;
@@ -187,7 +178,7 @@ void vuvid_v_fayl(vector<string> students_z_stepoyu,vector<float> avg_score)
     ofstream fout;
     fout.open("../rating.csv", ios_base::out | ios_base::trunc);
 
-    cout<<"Minimal score to get grand :"<<avg_score[int(avg_score.size()*0.4)]<<endl;
+    fout<<"Minimal score to get grand :"<<avg_score[int(avg_score.size()*0.4)]<<endl;
 
     if (!fout.is_open()){
         cout << "Failed to open/create output file!" << endl;
