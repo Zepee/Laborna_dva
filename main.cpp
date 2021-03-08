@@ -108,7 +108,7 @@ void collect_data(vector<string>& file_names, vector<vector<string>>& data, stri
             getline(file, log, '\n');
 
             //temp.push_back(log);
-            if (log == "FALSE")
+            if (log == "FALSE" || !log[0] == '+')
                 data.push_back(temp);
 
             temp.clear();
